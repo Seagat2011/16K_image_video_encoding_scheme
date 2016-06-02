@@ -4,7 +4,7 @@ The following is a Request For Comment (RFC) for a proposed encoding scheme whic
 
 The proposed method is explained herein:
 
-RULE 
+RULE  
 1. A byte or bit is called a pattern 
 2. All tables reside in Read/Write memory 
 3. Saved values for CLOCK must be accessible in both binary and integer form 
