@@ -44,7 +44,7 @@ We have now seen how to encode an N-bit clock
     PROCEDURE (16K DECODING)  
     1. extract one RE pattern,RE,from a saved table,P[]  
     2. extract one pattern,PATTERN,from P[ RE[] ]  
-    3. create an N-bit clock,CLOCK,specified by the variable,LENGTH,having a sufficient resolution to generate every required     pattern,P[ RE[CLOCK] ],in the table P[ RE[] ]  
+    3. create an N-bit clock,CLOCK,specified by the variable,LENGTH,having a sufficient resolution to generate every required pattern,P[ RE[CLOCK] ],in the table P[ RE[] ]  
     4. create another temporary hash table,16K_STRING[],to be used as an image buffer  
     5. starting from CLOCK equal 0 at the beginning of table,P[ RE[] ],until end-of-table:  
       
