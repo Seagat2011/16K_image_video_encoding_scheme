@@ -15,10 +15,10 @@ PROCEDURE (16K ENCODING)
 3. create another temporary hash table,16K_STRING[],to be used as a condensing library  
 4. starting from CLOCK equal 0 at the beginning of table,P[],until end-of-table:  
   1. check if the pattern,P[CLOCK],already exists in the table,16K_STRING[],and  
-    a. If the pattern,P[CLOCK],does not exist in the table,16K_STRING[]:  
+    I. If the pattern,P[CLOCK],does not exist in the table,16K_STRING[]:  
        - add the pattern,P[CLOCK],to the table,and create another empty hash sub table inside it: 16K_STRING_SUBPATTERN[]   
          (eg. 16K_STRING[ P[CLOCK] ] = new 16K_STRING_SUBPATTERN[]) ; or  
-    b. If the pattern,P[CLOCK],does indeed exist in the table,16K_STRING[],  
+    II. If the pattern,P[CLOCK],does indeed exist in the table,16K_STRING[],  
       save the CLOCK & the pattern,P[CLOCK],in the hash sub table 16K_STRING_SUBPATTERN[]. (eg 16K_STRING[ P[CLOCK] ].push(CLOCK) )  
   2. loop to next pattern in P[] (ie. add 1 to CLOCK)  
 5. stop at end-of-file (table)  
