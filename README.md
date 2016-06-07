@@ -10,8 +10,8 @@ The proposed method is explained herein:
 RULE  
 1. A byte or bit is termed a pattern  
 2. All tables reside in Read/Write memory  
-3. Saved values for CLOCK must be accessible in both binary and integer form
-4. All provided decoding methods produce equivalent results having a trade-off in performance and memory space
+3. Saved values for CLOCK must be accessible in both binary and integer form  
+4. All provided decoding methods produce equivalent results having a trade-off in performance and memory space  
   
     PROCEDURE (16K ENCODING)  
     1. copy every byte or bit into a table,P[]  
@@ -83,8 +83,3 @@ A further optimization can be made to decode performance by observing 16K_STRING
      
   
 RE patterns may be decoded in sequence or in parallel. On average, compression ratios per bit are greater than 1000:1
-
-
-
-
-

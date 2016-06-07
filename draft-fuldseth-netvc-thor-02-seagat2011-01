@@ -10,8 +10,8 @@ The proposed method is explained herein:
 RULE  
 1. A byte or bit is termed a pattern  
 2. All tables reside in Read/Write memory  
-3. Saved values for CLOCK must be accessible in both binary and integer form
-4. All provided decoding methods produce equivalent results having a trade-off in performance and memory space
+3. Saved values for CLOCK must be accessible in both binary and integer form  
+4. All provided decoding methods produce equivalent results having a trade-off in performance and memory space  
   
     PROCEDURE (16K ENCODING)  
     1. copy every byte or bit into a table,P[]  
