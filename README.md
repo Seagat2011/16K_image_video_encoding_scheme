@@ -3,7 +3,7 @@ Copyright Notice
 Copyright (c) 2016 Seagat2011 and the persons identified as the
 document authors.  All rights reserved.
 
-The following is a Request For Comment (RFC) for a proposed encoding scheme which encodes any 16K image or video frame using a method known as RE encapsulation. RE encapsulation is a well-known method of string-matching, known to those skilled in the art. This RFC attempts to employ an RE encapsulation method to frame encoding. Code examples are demonstrated using pseudo code or ECMA-262 JAVASCRIPT
+The following is a Request For Comment (RFC) for a proposed encoding scheme which encodes any 16K image or video frame using a method known as RE encapsulation. RE encapsulation is a realization of Chomsky's Finite Automata, and is a well-known method of string-matching, known to those skilled in the art. This RFC attempts to employ an RE encapsulation method to frame encoding. Code examples are demonstrated using pseudo code or ECMA-262 JAVASCRIPT
 
 The proposed method is explained herein:
 
